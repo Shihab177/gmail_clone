@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F6F8FC;
+}
+nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+nav :nth-of-type(1){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav svg:hover{
+    border-radius: 50%;
+    background: #C2E7FF;
+}
+nav div{
+    background: #EAF1FB;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 100px;
+    width: 45vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav div input{
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    width: 35vw;
+}
+nav div input:focus{
+    outline: none;
+}
+.shi{
+    border-radius: 50px;
+}
+.nav-svg{
+    float: left;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+
+main{
+    display: flex;
+}
+#left-sidebar{
+    display: inline-block;
+    width: 17.5vw;
+    height: 70vw;
+    
+}
+#window{
+    
+    display: inline-block;
+    background: white;
+    border-radius: 20px;
+    height: 90vh;
+    width: 75vw;
+    border-radius: 20px;
+}
+#left-sidebar button{
+ background: #C2E7FF;
+ padding:18px 28px;
+ cursor: pointer;
+ border: none;
+ border-radius: 10px;
+ margin-left: 10px;
+ margin-top: 20px;
+}
+.tab{
+    width: 90%;
+    padding: 10px 0;
+    display: flex;
+    border-radius: 0 20px 20px 0;
+}
+.tab svg{
+    margin-left: 20px;
+}
+.tab p{
+    margin-left: 30px;
+}
+#window-top{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#window-top input{
+    height: 15px;
+    width: 15px;
+   
+}
+#window-top svg{
+    margin-left: 10px;
+}
+.nav-tab{
+    background: whitesmoke;
+    margin-top: 20px;
+    width: 10vw;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 0;
+    border: none;
+}
+.nav-tab svg{
+    margin-left: 30px;
+}
+#message-box{
+    align-items: center;
+    display: flex;
+    margin-top: 0;
+    height: 40px;
+    background:#F2F6FC ;
+    overflow: hidden;
+    border: 1px solid silver;
+    
+}
+#message-box2{
+    height: 40px;
+    
+    background:#F2F6FC ;
+    border: 1px solid silver;
+    border-collapse: collapse;
+}
+#message-box3{
+    height: 40px;
+    background:#F2F6FC ;
+    border: 1px solid silver;
+}
+.tex{
+    margin-left: 80px;
+ 
+}
